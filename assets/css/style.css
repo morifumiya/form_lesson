@@ -289,19 +289,6 @@ margin-bottom: 0;
 	border: 1px solid #d9d9d9;
 }
 
-.course-option input:checked + .course-option-text::after {
-  content: '';
-  position: absolute;
-  left: 6px;
-  top: 50%;
-  transform: rotate(45deg);
-  height: 16px;
-  width: 8px;
-  margin-top: -12px;
-  border-right: 3px solid #01bfbd;
-  border-bottom: 3px solid #01bfbd;
-}
-
 .course-option input:checked + course-option-text::after {
 	content: '';
 	position: absolute;
@@ -311,7 +298,7 @@ margin-bottom: 0;
 	height: 16px;
 	width: 8px;
 	border-right: 3px solid #d9d9d9;
-	border-bottom: 3px solid #d9d9d9;
+	border-bottom: 3px sold #d9d9d9;
 }
 
 /* 備考 */
@@ -327,12 +314,12 @@ margin-bottom: 0;
 }
 
 .submit-btn:hover {
-	background-color: #01bfbd;
+	background-color: #01a6a4;
 }
 
 .submit-btn:active {
 	background-color: #fff;
-	color: #01bfbd;
+	color: #fff;
 	border: 1px solid #d9d9d9;
 }
 
